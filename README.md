@@ -1,2 +1,2 @@
 # pythonhw
-python homewoek
+python homework
