@@ -1,14 +1,8 @@
 import os
 import csv
-csvpath = os.path.join('..', 'Resources', 'budget_data.csv')
-with open(csvpath, newline="") as csvfile:
+budget_csv = os.path.join('..','Resources','budget_data.csv',)
+with open(budget_csv,'r') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
-    print(csvreader)
+    header = next(csvreader)
+    print(budget_csv[0])
     
-
-
-
-
-
-
-
